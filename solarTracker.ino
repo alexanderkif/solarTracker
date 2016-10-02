@@ -12,18 +12,43 @@ void loop()
 {   
 //горизонтальное движение
 if((analogRead(A3)-analogRead(A2)) > (delta)) {_StM1.step(-1);}
-if((analogRead(A3)-analogRead(A2)) < (-delta)) {_StM1.step(1);}
+else {
+    if((analogRead(A3)-analogRead(A2)) < (-delta)) {_StM1.step(1);}
+    else {digitalWrite(8, LOW);
+          digitalWrite(9, LOW);
+          digitalWrite(10, LOW);
+          digitalWrite(11, LOW);}
+}
+
 //вертикальное движение
 if((analogRead(A3)-analogRead(A2)) < (delta) && (analogRead(A3)-analogRead(A2)) > (-delta)){
-    if (!digitalRead(4)){
+    if (digitalRead(4)){
+        digitalWrite(13, 1);
+        if((analogRead(A1)-analogRead(A2)) >= (-delta)) {
+                  digitalWrite(16, LOW);
+                  digitalWrite(17, LOW);
+                  digitalWrite(18, LOW);
+                  digitalWrite(19, LOW);}
+    }
+    else {
         if((analogRead(A1)-analogRead(A2)) > (delta)) {_StM2.step(-1);}//вниз
         digitalWrite(13, 0);
     }
-    else {digitalWrite(13, 1);}
-    if (!digitalRead(5)){  
-        if((analogRead(A1)-analogRead(A2)) < (-delta)) {_StM2.step(1);}//вверх
-        digitalWrite(13, 0);   
+    if (digitalRead(5)){
+        digitalWrite(13, 1);  
+        if((analogRead(A1)-analogRead(A2)) <= (delta)) {
+                  digitalWrite(16, LOW);
+                  digitalWrite(17, LOW);
+                  digitalWrite(18, LOW);
+                  digitalWrite(19, LOW);}    
     }
-    else {digitalWrite(13, 1);}
-  }
-}
+    else {
+        if((analogRead(A1)-analogRead(A2)) < (-delta)) {_StM2.step(1);}//вверх
+        digitalWrite(13, 0);
+    }
+    if ((analogRead(A1)-analogRead(A2)) >= (-delta)&&(analogRead(A1)-analogRead(A2)) <= (delta)) {
+                  digitalWrite(16, LOW);
+                  digitalWrite(17, LOW);
+                  digitalWrite(18, LOW);
+                  digitalWrite(19, LOW);}
+}}
