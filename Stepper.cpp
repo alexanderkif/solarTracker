@@ -178,6 +178,14 @@ void Stepper::setSpeed(long whatSpeed)
 }
 
 /*
+ * no power/hold in standBy mode
+ */
+void Stepper::noHold(void)
+{
+	digitalWrite(motor_pin_1, LOW);
+}
+
+/*
  * Moves the motor steps_to_move steps.  If the number is negative,
  * the motor moves in the reverse direction.
  */

@@ -92,6 +92,9 @@ class Stepper {
 
     // speed setter method:
     void setSpeed(long whatSpeed);
+	
+	// no power/hold in standBy mode:
+    void noHold(void);
 
     // mover method:
     void step(int number_of_steps);
