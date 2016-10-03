@@ -183,6 +183,10 @@ void Stepper::setSpeed(long whatSpeed)
 void Stepper::noHold(void)
 {
 	digitalWrite(motor_pin_1, LOW);
+	digitalWrite(motor_pin_2, LOW);
+	digitalWrite(motor_pin_3, LOW);
+	digitalWrite(motor_pin_4, LOW);
+	digitalWrite(motor_pin_5, LOW);
 }
 
 /*
