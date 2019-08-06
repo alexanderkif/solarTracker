@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    Solar Tracker
+    First steps
   </q-page>
 </template>
 
@@ -9,9 +9,9 @@
 
 <script>
 export default {
-  name: 'PageIndex',
+  name: 'First',
   meta: {
-    title: 'Solar Tracker'
+    title: 'First steps'
   }
 }
 </script>

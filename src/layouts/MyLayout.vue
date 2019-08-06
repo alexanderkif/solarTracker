@@ -3,18 +3,18 @@
 
     <q-header elevated class="bg-primary text-white">
       <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
-          </q-avatar>
-          Title
+        <q-toolbar-title class="text-center text-uppercase">
+          Solar Tracker made by me and my son
         </q-toolbar-title>
       </q-toolbar>
 
-      <q-tabs align="left">
-        <q-route-tab to="/page1" label="Page One" />
-        <q-route-tab to="/page2" label="Page Two" />
-        <q-route-tab to="/page3" label="Page Three" />
+      <q-tabs align="center" inline-label>
+        <q-route-tab
+          v-for="tab in tabs"
+          :key="tab.label"
+          :to="tab.to"
+          :icon="tab.icon"
+          :label="tab.label" />
       </q-tabs>
     </q-header>
 
@@ -22,13 +22,10 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-grey-8 text-white">
+    <q-footer elevated class="bg-grey-8 text-white text-center">
       <q-toolbar>
         <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
-          </q-avatar>
-          Title
+          Copyright &copy; Aleksandr Nikiforov
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
@@ -41,6 +38,33 @@ export default {
   name: 'MyLayout',
   data () {
     return {
+      tabs: [
+        {
+          label: 'First steps',
+          icon: 'history',
+          to: '/first'
+        },
+        {
+          label: 'Solar tracker',
+          icon: 'wb_sunny',
+          to: '/'
+        },
+        {
+          label: 'Experiment',
+          icon: 'trending_up',
+          to: '/experiment'
+        },
+        {
+          label: 'Junior competition',
+          icon: 'school',
+          to: '/junior'
+        },
+        {
+          label: 'About us',
+          icon: 'people',
+          to: '/about'
+        }
+      ]
     }
   }
 }
