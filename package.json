@@ -12,7 +12,8 @@
     "build:pwa": "quasar build -m pwa",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0",
-    "deploy": "gh-pages -d dist/spa"
+    "deploy": "gh-pages -d dist/spa",
+    "deploy:pwa": "gh-pages -d dist/pwa"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
