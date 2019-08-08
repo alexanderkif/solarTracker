@@ -8,12 +8,12 @@
       thumbnails
       infinite
     >
-      <q-carousel-slide :name="1" img-src="assets/IMG_1.jpg" />
-      <q-carousel-slide :name="2" img-src="assets/IMG_2.jpg" />
-      <q-carousel-slide :name="3" img-src="assets/IMG_3.jpg" />
-      <q-carousel-slide :name="4" img-src="assets/IMG_4.jpg" />
-      <q-carousel-slide :name="5" img-src="assets/IMG_5.jpg" />
-      <q-carousel-slide :name="6" img-src="assets/IMG_6.jpg" />
+      <q-carousel-slide :name="1" :img-src="img1" />
+      <q-carousel-slide :name="2" :img-src="img2" />
+      <q-carousel-slide :name="3" :img-src="img3" />
+      <q-carousel-slide :name="4" :img-src="img4" />
+      <q-carousel-slide :name="5" :img-src="img5" />
+      <q-carousel-slide :name="6" :img-src="img6" />
 
       <template v-slot:control>
         <q-carousel-control
@@ -57,7 +57,13 @@ export default {
   data () {
     return {
       slide: 1,
-      fullscreen: false
+      fullscreen: false,
+      img1: 'statics/IMG_1.jpg',
+      img2: 'statics/IMG_2.jpg',
+      img3: 'statics/IMG_3.jpg',
+      img4: 'statics/IMG_4.jpg',
+      img5: 'statics/IMG_5.jpg',
+      img6: 'statics/IMG_6.jpg'
     }
   }
 }
