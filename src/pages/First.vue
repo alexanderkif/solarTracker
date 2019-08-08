@@ -8,12 +8,11 @@
       thumbnails
       infinite
     >
-      <q-carousel-slide :name="1" :img-src="img1" />
-      <q-carousel-slide :name="2" :img-src="img2" />
-      <q-carousel-slide :name="3" :img-src="img3" />
-      <q-carousel-slide :name="4" :img-src="img4" />
-      <q-carousel-slide :name="5" :img-src="img5" />
-      <q-carousel-slide :name="6" :img-src="img6" />
+      <q-carousel-slide
+        v-for="image in images"
+        :name="image.name"
+        :key="image.index"
+        :img-src="image.url" />
 
       <template v-slot:control>
         <q-carousel-control
@@ -58,12 +57,14 @@ export default {
     return {
       slide: 1,
       fullscreen: false,
-      img1: 'statics/IMG_1.jpg',
-      img2: 'statics/IMG_2.jpg',
-      img3: 'statics/IMG_3.jpg',
-      img4: 'statics/IMG_4.jpg',
-      img5: 'statics/IMG_5.jpg',
-      img6: 'statics/IMG_6.jpg'
+      images: [
+        { name: 1, url: 'statics/IMG_1.jpg' },
+        { name: 2, url: 'statics/IMG_2.jpg' },
+        { name: 3, url: 'statics/IMG_3.jpg' },
+        { name: 4, url: 'statics/IMG_4.jpg' },
+        { name: 5, url: 'statics/IMG_5.jpg' },
+        { name: 6, url: 'statics/IMG_6.jpg' }
+      ]
     }
   }
 }
