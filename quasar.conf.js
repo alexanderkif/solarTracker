@@ -48,7 +48,11 @@ module.exports = function (ctx) {
         'QTabs',
         'QRouteTab',
         'QFooter',
-        'QAvatar'
+        'QAvatar',
+        'QCarousel',
+        'QCarouselControl',
+        'QCarouselSlide',
+        'QVideo'
       ],
 
       directives: [
