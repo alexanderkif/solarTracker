@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.1dc9265bb00da8d9cc0342ccdd17311f.js"
+  "precache-manifest.6371406ccde6f8f814eb090a04631aa5.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "solartracker"});
