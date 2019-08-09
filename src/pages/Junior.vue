@@ -8,11 +8,10 @@
       </div>
       <div class="text-left q-mx-auto q-my-md" style="width: 80%">
         TO GET MORE FOLLOW THE LINKS:<br/>
-        <a href="https://mephi.ru/eng/" target="_blank">https://mephi.ru/eng/</a><br/>
-        <a href="https://mephi.ru/content/news/1387/121419/" target="_blank">
-          https://mephi.ru/content/news/1387/121419/</a><br/>
+        <a href="https://mephi.ru/eng/" target="_blank">MEPHI</a><br/>
+        <a href="https://mephi.ru/content/news/1387/121419/" target="_blank">Junior</a><br/>
         <a href="https://mephi.ru/schoolkids/olimpiads/junior/pressa/podgotovka/pobediteli-2017.php" target="_blank">
-          https://mephi.ru/schoolkids/olimpiads/junior/pressa/podgotovka/pobediteli-2017.php</a>
+          Winners</a>
       </div>
       <div
         v-for="img in images"
