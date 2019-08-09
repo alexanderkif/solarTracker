@@ -40,7 +40,7 @@
       </div>
       <div class="text-left q-mx-auto q-my-md" style="width: 80%">
         To see changes in 3 files, follow the link
-         <a href="https://github.com/alexanderkif/solarTracker" target="_blank">https://github.com/alexanderkif/solarTracker</a>
+         <a href="https://github.com/alexanderkif/solarTracker" target="_blank">Github</a>
       </div>
       <div class="q-video q-mx-auto q-my-lg" style="height: 400px;">
         <iframe
