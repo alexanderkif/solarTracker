@@ -1,26 +1,25 @@
 # Solar Tracker (solartracker)
 
-We win junior competition in robo tech
+We win junior competition in robo tech https://alexanderkif.github.io/solarTracker/
 
-## Install the dependencies
+All movies https://www.youtube.com/watch?v=ub_FHhKzo3E&list=PLphNsXmBNC1Gf7BAmjFdNlVVp6dJ1AHhK&index=3
+
+## To run it locally
+### Install the dependencies
 ```bash
 npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
-quasar dev
-```
-
-### Lint the files
-```bash
-npm run lint
+npm run dev
 ```
 
 ### Build the app for production
 ```bash
-quasar build
+npm run build
 ```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+or
+```bash
+npm run build:pwa
+```
