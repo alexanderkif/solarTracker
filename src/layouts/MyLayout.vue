@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh lpR fFf">
 
-    <q-header elevated class="bg-primary text-white">
+    <q-header elevated class="text-white" style="background: linear-gradient(90deg, #257784, #AC0CE0);">
       <q-toolbar>
         <q-toolbar-title class="text-center text-uppercase">
           Solar Tracker made by me and my son
@@ -18,11 +18,11 @@
       </q-tabs>
     </q-header>
 
-    <q-page-container>
+    <q-page-container style="background: linear-gradient(90deg, #cfedf2, #f4d8fd);">
       <router-view />
     </q-page-container>
 
-    <q-footer class="bg-grey-8 text-grey-13 text-center" reveal elevated>
+    <q-footer class="text-grey-13 text-center" reveal elevated style="background: linear-gradient(90deg, #257784, #AC0CE0);">
       Copyright &copy; Aleksandr Nikiforov
     </q-footer>
 

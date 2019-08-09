@@ -1,5 +1,5 @@
 <template>
-  <div class="q-pa-md">
+  <q-page class="q-pa-md q-mx-auto" style="max-width: 1200px">
     <q-carousel
       swipeable
       animated
@@ -27,21 +27,21 @@
         </q-carousel-control>
       </template>
     </q-carousel>
-    <div class="text-center q-py-lg text-h6">
+    <div class="text-grey-8 text-center q-py-lg text-h6">
       This is our first steps to build Solar traker.<br/>
       Movings up and down have limits with two switches.<br/>
-      Left and right turn have no limit switches. Tracker can spin around.
-    </div>
-    <div class="q-pa-md">
-      <div class="q-video q-mx-auto" style="max-width: 400px; height: 300px;">
-        <iframe
-          src="https://www.youtube.com/embed/Z4RIKwUoG4Q?rel=0"
-          frameborder="0"
-          allowfullscreen
-        />
+      Left and right turn have no limit switches, tracker can spin around.
+      <div class="q-pt-md">
+        <div class="q-video q-mx-auto" style="height: 600px;">
+          <iframe
+            src="https://www.youtube.com/embed/Z4RIKwUoG4Q?rel=0"
+            frameborder="0"
+            allowfullscreen
+          />
+        </div>
       </div>
     </div>
-  </div>
+  </q-page>
 </template>
 
 <style>
