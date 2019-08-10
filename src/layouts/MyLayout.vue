@@ -1,9 +1,9 @@
 <template>
   <q-layout view="hHh lpR fFf">
 
-    <q-header elevated class="text-white" style="background: linear-gradient(90deg, #257784, #AC0CE0);">
-      <q-toolbar>
-        <q-toolbar-title class="text-center text-uppercase">
+    <q-header reveal elevated class="text-white" style="background: linear-gradient(90deg, #257784, #AC0CE0);">
+      <q-toolbar class="header">
+        <q-toolbar-title class="text-center text-uppercase header__toolbar">
           Solar Tracker made by me and my son
         </q-toolbar-title>
       </q-toolbar>
@@ -22,7 +22,7 @@
       <router-view />
     </q-page-container>
 
-    <q-footer class="text-grey-13 text-center" reveal elevated style="background: linear-gradient(90deg, #257784, #AC0CE0);">
+    <q-footer class="text-grey-13 text-center footer" reveal elevated style="background: linear-gradient(90deg, #257784, #AC0CE0);">
       Copyright &copy; Aleksandr Nikiforov
     </q-footer>
 
@@ -66,5 +66,22 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+.header {
+  @media screen and (max-height: 400px) {
+    display: none;
+  }
+
+  &__toolbar {
+    @media screen and (max-width: 460px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.footer {
+  @media screen and (max-height: 400px) {
+    display: none;
+  }
+}
 </style>
