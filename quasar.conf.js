@@ -110,7 +110,7 @@ module.exports = function (ctx) {
         // short_name: 'Solar Tracker',
         // description: 'We win junior competition in robo tech',
         display: 'standalone',
-        orientation: 'portrait',
+        orientation: 'any',
         background_color: '#ffffff',
         theme_color: '#027be3',
         icons: [
