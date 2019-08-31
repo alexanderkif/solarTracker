@@ -111,7 +111,7 @@ module.exports = function (ctx) {
         // description: 'We win junior competition in robo tech',
         display: 'standalone',
         orientation: 'any',
-        background_color: '#ffffff',
+        background_color: '#19a32b',
         theme_color: '#027be3',
         icons: [
           {
