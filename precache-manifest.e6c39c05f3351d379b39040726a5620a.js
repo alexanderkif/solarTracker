@@ -132,67 +132,67 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "statics\\I_and_son.jpg"
   },
   {
-    "revision": "1597c4958f2a756f332a1d20381037f1",
+    "revision": "b8961191a73db9f81d88e9511a385df7",
     "url": "statics\\app-logo-128x128.png"
   },
   {
-    "revision": "915ec137201ea72b4a93cb7d1ef62a2d",
+    "revision": "f5f5a372f4245a9a1b1901edac5fb24d",
     "url": "statics\\icons\\apple-icon-120x120.png"
   },
   {
-    "revision": "30721274d2efe66e53f7cd29210b064e",
+    "revision": "c1bc31b50edbace56a195836c20f8e83",
     "url": "statics\\icons\\apple-icon-152x152.png"
   },
   {
-    "revision": "f689c27d12e3538fc7c6fcdc4e337710",
+    "revision": "61fd82426e3ba5807b029511e3ceadbd",
     "url": "statics\\icons\\apple-icon-167x167.png"
   },
   {
-    "revision": "eebfa2dd4bc7e152b4be7f767ba45b42",
+    "revision": "7a83da4c6d30f4b4281bc81029ebe67d",
     "url": "statics\\icons\\apple-icon-180x180.png"
   },
   {
-    "revision": "3c2663a5f340c7042e570604f4ae751e",
+    "revision": "df40bc74c3bba518b577da3a5f790dbc",
     "url": "statics\\icons\\favicon-16x16.png"
   },
   {
-    "revision": "f3daeb8c502da97bddff873715a689fa",
+    "revision": "6a9e3a0f44daefa18e9807be1c58e80e",
     "url": "statics\\icons\\favicon-32x32.png"
   },
   {
-    "revision": "91c0241a3f109b25f150b05a496363dd",
+    "revision": "59059fd2ae0a2ac5a5a5ad775c773284",
     "url": "statics\\icons\\favicon-96x96.png"
   },
   {
-    "revision": "bc42f70b618702438e926b0a7355f68c",
+    "revision": "8bc5074f03d7da986cfcaba237d6045c",
     "url": "statics\\icons\\favicon.ico"
   },
   {
-    "revision": "1597c4958f2a756f332a1d20381037f1",
+    "revision": "b8961191a73db9f81d88e9511a385df7",
     "url": "statics\\icons\\icon-128x128.png"
   },
   {
-    "revision": "dc5df2b48b0fe2335bca8cd881da0f5a",
+    "revision": "f78fd4bc76dc2a4e4da88858508996dd",
     "url": "statics\\icons\\icon-192x192.png"
   },
   {
-    "revision": "4cfe641c429838c9c345bc61b788898e",
+    "revision": "d1ae18c30bc030348e7c8e278f8ba33a",
     "url": "statics\\icons\\icon-256x256.png"
   },
   {
-    "revision": "410adcce9a28601845f948a4898c657d",
+    "revision": "af9be7a7340b2c78bdd24949005e9ed6",
     "url": "statics\\icons\\icon-384x384.png"
   },
   {
-    "revision": "a5f976d899cfa6ac637496a98ab4de40",
+    "revision": "4535bf3a1f0cd998f07e19bc737b3b8d",
     "url": "statics\\icons\\icon-512x512.png"
   },
   {
-    "revision": "a60311cd952b232e054dbe974ff94097",
+    "revision": "017eb89121dda7a061f06171bf0ee580",
     "url": "statics\\icons\\ms-icon-144x144.png"
   },
   {
-    "revision": "45bf678dd6c29eb6591b3d464fc53ca7",
+    "revision": "20f76d05248160f56f6f1cbe9a63d5c1",
     "url": "statics\\icons\\safari-pinned-tab.svg"
   },
   {
