@@ -106,8 +106,8 @@ module.exports = function (ctx) {
       // workboxPluginMode: 'InjectManifest',
       // workboxOptions: {}, // only for NON InjectManifest
       manifest: {
-        // name: 'Solar Tracker',
-        // short_name: 'Solar Tracker',
+        name: 'Solar Tracker',
+        short_name: 'SolarTracker',
         // description: 'We win junior competition in robo tech',
         display: 'standalone',
         orientation: 'any',
